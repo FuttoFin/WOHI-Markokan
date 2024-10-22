@@ -1,0 +1,49 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+table {
+  border-style: double;
+  border-width: 5px;
+  border: 12px solid red;
+  border-radius: 50px;
+}
+
+#ul1 {
+  color: red
+}
+
+#ul2 {
+  color: rgb(81, 255, 0)
+}
